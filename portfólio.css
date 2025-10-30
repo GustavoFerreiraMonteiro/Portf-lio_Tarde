@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos Gerais*/
+
+body {
+    background-color: #f7f9fc;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+/*Menu Lateral 1*/
+
+.nav-bar {
+    background-color: #1e3a8a;
+    color: #fff;
+    height: 100%;
+    left: 0;
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    width: 220px;
+}
+
+.nav-bar h2 {
+    margin-bottom: 30px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    margin-bottom: 15px;
+}
+
+.nav-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3;
+}
+
+.nav-bar ul li a:hover{
+    color: #93c5fd;
+}
+
+/*Conteúdo Principal*/
+
+main{
+    margin-left: 250px;
+    padding: 40px;
+}
+
+.secao{
+    margin-bottom: 80px;
+}
+
+.secao h2{
+    border-bottom: 10px solid #1e3a8a;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/*Seções*/
+
+.sobre-container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.sobre-container img{
+    width: 180px;
+    border-radius: 50%;
+    border: 5px solid #e0f2fe;
+}
+
+.texto-sobre{
+    line-height: 1.6;
+    margin-bottom: 15px;
+    background-color: #e0f2fe;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+/* Projetos */
+
+.cards-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
